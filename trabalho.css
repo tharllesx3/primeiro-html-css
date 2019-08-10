@@ -1,0 +1,319 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: Luckiest Guy;
+    font-size: 16px;
+    color: #F5F5F5;
+    background-color: #FFE7BA;
+}
+
+@font-face {
+	font-family: Insanibu;
+	src: url("fontes/Insanibu.ttf");
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #4F4F4F;
+    top: 0px;
+}
+
+nav {
+    width: 65%;
+    height: 100%;
+    float: right;
+}
+
+nav ul {
+	font-family: arial;
+	font-weight: bold;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+nav ul li {
+    width: 150px;    
+    display: table-cell;  
+    vertical-align: middle; 
+    text-align: center;
+}
+
+a {
+    color: #eeeeee;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+
+#logo {
+    float: left;
+    width: 100px;
+    margin: 0px 25px;
+}
+
+#img-logo {
+    width: 95%;
+}
+
+#destaques {
+    width: 100%;
+    height: 370px;
+    background-color: #FFE7BA;
+    
+}
+
+#banner1 {
+    float: left;
+    width: 660px;
+    margin: 5px 0px;
+    background-image: url(imagem/imagem1.jpg);
+    height: 350px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+ 
+ article {
+    margin: 25px;
+    width: 180px;
+
+ }
+
+#banner2{
+    width: 340px;
+    float: right;
+    margin: 5px 0px;
+    background-image: url("imagem/imagem2.jpg");
+    height: 350px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+#banner2 article { 
+    font-weight: bold;
+
+}
+
+.area, main {
+    max-width: 1024px;
+    min-width: 960px;
+    height: 100%;
+    margin: 0px auto;    
+}
+
+
+#cardapio {
+    width: 100%;
+    height: 770px;
+    background-color: #FFE7BA;
+}
+
+#roll {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#bebidas {
+    width: 330px;
+    background-image: url(imagem/bebidas.jpg);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+
+#bebidas:hover {
+    font-size: 30px
+}
+
+#menu {
+    width: 330px;
+    background-image: url(imagem/menu.jpg);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+#menu:hover {
+    font-size: 30px
+}
+
+#lanches {
+    width: 330px;
+    background-image: url(imagem/lanches.jpg);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+#lanches:hover {
+    font-size: 30px
+}
+
+#burger {
+    margin-top: 10px;
+    width: 100%;
+    background-image: url(imagem/burger.jpg);
+    height: 600px; 
+}
+
+#burger h2{
+    font-size: 50px;
+}
+
+#burgertext {
+    width: 400px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-left: 100px;
+
+}
+
+#sombra {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.0);
+    display: flex;
+    align-items: center;
+    transition: 2s;
+
+}
+
+#sombra:hover {
+    background: rgba(100, 0, 0, 0.6);
+}
+
+.slidesjs-pagination {
+    margin: 5px 0 0;
+    float: right;
+    list-style: none;
+}
+
+.slidesjs-pagination li {
+    float: left;
+    margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    background-image: url(imagem/pagination.png);
+    background-position: 0 0;
+    float: left;
+    overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+    background-position: 0 -13px
+    }
+
+.slidesjs-pagination li a:hover {
+    background-position: 0 -26px
+}
+
+#diversos {
+    display: flex;
+}
+
+#contato {
+    width: 45%;
+    height: 100%;
+       
+}
+
+#contato h3 {
+	font-family: verdana;
+    margin: 15px 30px;
+    color: #6495ED;
+    text-shadow: 1.5px 1.5px black;
+}
+
+#contato .input, #contato textarea {
+    display: block;
+    width: 390px;
+    margin: 15px 30px;
+    font-size: 14px;
+    padding-left: 6px;
+    border: 1px solid #0C718A;
+}
+
+#contato select {
+    display: block;
+    width: 400px;
+    margin: 10px 30px;
+    font-size: 14px;
+    border: 1px solid #0C718A;
+}
+
+#contato .botao {
+    float: right;
+    width: 100px;
+    margin-right: 30px;
+    background-color: #6495ED;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+#imagem {
+    width: 55%;
+    height: 200PX;
+}
+
+#imagemburger {
+    width: 90%;
+    height: 300px;
+    border-radius: 15px;
+}
+
+footer {
+	width: 100%;
+    height: 100px;
+    background-color: #4F4F4F; 
+}
+
+
+footer .area div h4 {
+    padding-top: 20px;
+    color: #FAA232;
+    font-family: arial;
+}
+
+footer .area div p {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #fff;
+    font-family: verdana;
+}
+
+footer .area div {
+    float: left;
+}
+
+footer .area figure {
+    float: right;
+    height: 95%;
+}
+
+#logo2 {
+	width: 100px;
+	height: 95px;
+}

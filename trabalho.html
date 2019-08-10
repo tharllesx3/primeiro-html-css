@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+        <meta charset="UTF-8">
+        <title>Trabalho Final</title>
+        
+        <style type="text/css">
+                @import "trabalho.css";
+        </style>
+
+    </head>
+    <body>       
+        
+        <header>
+            
+            <div class="area">
+            	<figure id="logo">
+            		<img id="img-logo" src="imagem/logo.png" alt="imagem do lgoo">
+            	</figure>
+                <nav>
+                    <ul>
+                        <li><a href="#destaques">HOME</a></li>
+                        <li><a href="#cardapio">CARDÁPIO</a></li>
+                        <li><a href="#galeria">GALERIA</a></li>
+                        <li><a href="#contato">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>        
+        
+        <main>
+            
+            <section id="destaques">
+            	<div id="banner1">
+            		<article>            		
+            			<h2>Lorem ipsum</h2>
+            			<br>
+            			<p>Vivamus dui sapien, eleifend vitae leo non, tristique luctus nulla.</p>
+            		</article>            		
+            	</div>
+            	<div id="banner2">
+            		<article>            			
+            			<p>Vivamus dui sapien, eleifend vitae leo non, tristique luctus nulla.</p>
+            		</article>
+            	</div>               
+            </section>
+
+            <section id="cardapio">
+
+            	<div id="roll">
+
+	            	<div id="bebidas"><a href="#destaques">            		           		
+	            		<h2>BEBIDAS</h2> 
+	            		</a>       			
+	                </div>
+	                <div id="menu"><a href="#destaques">            		           		
+	            		<h2>MENU</h2>
+	            		</a>        			
+	                </div>   
+	                 <div id="lanches"><a href="#destaques">            		           		
+	            		<h2>LANCHES</h2>
+	            		</a>
+	            	</div>
+
+	             </div>           	              
+            	
+            	<div id="burger">
+            		<div id="sombra" >
+	            		<div id="burgertext">
+			            	<a href="#destaques"><h2>NEW BURGER</h2></a>
+			            	<br>
+			            	<p>Lorem ipsum conubia lorem feugiat volutpat</p><br>
+			            	<p>Vivamus dui sapien, eleifend vitae leo non</p><br>
+			            	<p>Lorem ipsum conubia lorem feugiat volutpat</p><br>
+			            	<p>Vivamus dui sapien, eleifend vitae leo non</p><br>		            	
+			            </div>
+			         </div>   
+	            </div>
+            </section>                          
+            
+            <div id="galeria">
+                <div id="slides">
+                    <img src="imagem/big.jpg" alt="">
+                    <img src="imagem/big.jpg" alt="">
+                    <img src="imagem/big.jpg" alt="">
+                    <img src="imagem/big.jpg" alt="">
+                </div>
+            </div>
+
+            <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>           
+
+            <script src="js/jquery.slides.min.js"></script>
+
+            <script>
+                $(function() {
+                  $('#slides').slidesjs({
+                    width: 1120,
+                    height: 528,
+                    navigation: false
+                  });
+                });
+             </script>
+
+            <section id="diversos">
+            	<div id="imagem">
+                    <figure>
+                    	<img id="imagemburger" src="imagem/mini.jpg" alt="">
+                 	</figure>
+                </div>
+                <div id="contato">
+                    <h3>Entre em contato</h3>
+                    	<form action="pag.php" method="post">
+	                        <input type="text" name="nome" class="input" placeholder="Nome completo" required>
+	                        <input type="email" name="email" class="input" placeholder="Email de contato" required>
+                    		<select name="assunto">
+	                            <option value="0">Assunto</option>
+	                            <option value="sugestao">Sugestão</option>
+	                            <option value="reclamacao">Reclamação</option>
+	                            <option value="elogio">Elogio</option>
+                        	</select>
+                        	<input type="date" name="data" class="input"  required>
+                        	<textarea name="mensagem" placeholder="Deixe sua mensagem..." rows="4"></textarea>
+                        	<input type="submit" name="acao" class="botao" value="Enviar">
+                        </form>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="area">
+                <div>
+                    <h4>Lorem ipsum dolor</h4>
+                    <p>
+                       Rua dos bobos, 0 - nem sei <br>
+                       CEP 00-000-000 - Lorem ipsum - Lorem ipsum -fone: (00) 0000-0000 <br>                      
+                    </p>
+                </div>
+                <figure><img  id="logo2" src="imagem/logo.png" alt="Logo burguer inferior"></figure>
+            </div>
+
+        </footer>
+
+  
+    </body>
+</html>	
